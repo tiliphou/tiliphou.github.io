@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #000;
+
+}
+
+header {
+    position:absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    height:30vh;
+    background-color: white;
+    padding: 0 2rem;
+}
+header div{
+    width:100%;
+    text-align:center;
+}
+
+
+
+nav {
+    width:inherit;
+    height:100%;
+    text-align: center;
+    display:center;
+}
+
+nav ul{
+    padding-top: 30px;
+    height: auto;
+    width:100%;
+}
+nav li{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+nav li a:hover{
+
+}
+
+nav li a {
+    color: #232528;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+    width:100px;
+    height:100px;
+    cursor:grab;
+    margin-top: 20px;
+}
+
+#introduction {
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    width:100%;
+    height: 450px;
+    background-image: url(/images/local/image-accueil.png);
+    background-size: cover;
+    text-align: center;
+
+}
+#titre h3{
+    color:white;
+    font-size: 70px;
+    padding:5%;
+}
+
+#titre h4{
+    color:white;
+    font-size: 30px;
+}
+
+
+
+.gauche{
+    vertical-align: top;
+}
+
+
+
+.gauche h3{
+    margin:7px 0;
+}
+
+.gauche p a{
+    color:black;
+}
+
+.gauche p a:hover{
+    color: blue;
+}
+.gauche p a:active{
+    color: red;
+}
+.gauche p a:visited{
+    color: black;
+}
+
+.center {
+    text-align:center;
+}
+.MD{
+    margin:30px 0; 
+    display:flex;
+}
+.CSPS{
+    margin-top:30px; 
+    margin-bottom: 100px;
+    display:flex;
+}
+.column {
+    height:100%;
+    flex:49%;
+}
+
+.column1{
+    padding-top: 5%;
+}
+.column img{
+    width:90%;
+    height:90%;
+    border-radius: 10%;
+    margin-left:5%;
+}
+.column3 {
+    float: left;
+    width: 33%;
+}
+.column p{
+    text-align:justify;
+    padding:0 20%;
+}
+
+.column h2{
+    padding:10px 0;
+    text-align:center;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imageG {
+    width:90%;
+    height:90%;
+}
+
+img {
+    cursor: url(images/local/logo.jpg);
+}
+
+
+
+.textb { 
+    color:white;
+    margin:0;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+#theme{
+    color:black;
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    body {
+        background-color: #232528;
+    }
+}
+
+#image-acceuil {
+    filter: brightness(70%);
+}
+
+footer {
+    background-color: #232528;
+    height:100px;
+    width:100%;
+    color:white;
+    bottom:0;
+    padding:20px;
+}
+
+footer div {
+    display:inline-block;
+    width:49%;
+    text-align: center;
+}
+
+footer div a, footer div p{
+    width:100%;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+
+/* Oeuvres*/
+.allClients{
+    margin-top:50px;
+    width:98%;
+    margin:1.5%;
+}
+
+.Client {
+    display: inline-block;
+    width:33%;
+    align-items: center;
+    margin:0;
+}
+
+#intro-oeuvres p{
+    width:100%;
+    padding-top:25vh;
+    margin:10vh;
+    color:#232528;
+
+}
+
+.Client h1{
+    text-align: center;
+    font-size: medium;
+    margin:0;
+    color:#232528
+}
+
+.Client img{
+    padding:5%;
+    width:100%;
+    transition: transform .5s;
+}
+
+.Client img:hover {
+    transform: scale(1.1);
+}
+
+
+/*Clients*/
+
+#section-oeuvres{
+    margin-top:12vh;
+}
+
+#section-oeuvres div{
+    display: inline-block;
+    width: 48%;
+    margin-left:22px;
+}
+
+#section-oeuvres div img{
+    height: auto;
+    width: 80%;
+    margin:5vh 0;
+}
+
+
+#error {
+    text-align: center;
+    margin-top:10%;
+}
+
+#messageerror {
+    text-align: center;
+    margin-top:2%;
+    margin-bottom:70vh;
+}
+
+#separation {
+    margin-bottom: 300px;
+}
+
+#iframe{
+    width:100%;
+    display: flex;
+}
+
+#iframe div{
+    text-align: center;
+    flex:50%;
+    align-items: center;
+}
+
+#iframeCapbreton{
+    height:300px;
+    width:70%;
+    margin:10vh 15%;
+}
+
+#iframeUrcuray{
+    height:300px;
+    width:70%;
+    margin:10vh 15%;
+}
