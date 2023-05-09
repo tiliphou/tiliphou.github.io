@@ -232,6 +232,19 @@ footer div a, footer div p{
     align-items: center;
     margin:0;
 }
+.Oeuvres{
+    display: flex;
+    margin:30vh 0;
+}
+.Oeuvres h1 {
+    margin-bottom:20px;
+    text-align: center;
+}
+.Oeuvres img{
+    margin-top:20px;
+    height:350px;
+    height:auto;
+}
 
 #intro-oeuvres p{
     width:100%;
@@ -280,7 +293,7 @@ footer div a, footer div p{
 
 #error {
     text-align: center;
-    margin-top:10%;
+    margin-top:30vh;
 }
 
 #messageerror {
